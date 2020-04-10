@@ -14,7 +14,7 @@ def self.all
 end
 def author_name#(name)
   #name = Author.new
-  if author 
+  if author
 author.name #= self
   # @@all.select do |name|
 else
