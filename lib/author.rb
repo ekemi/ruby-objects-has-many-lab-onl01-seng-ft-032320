@@ -14,6 +14,9 @@ attr_accessor :name
 
    new_post = self.new(post_tile)
    add_post(new_post)
-
  end
+
+ def self.post_count
+   Post.all.count
+end
 end
