@@ -12,7 +12,7 @@ def self.all
 
 end
 def author_name(name)
-name.auther = self
+name.author = self
   # @@all.select do |name|
   #   if name.author == self
   #     return name.author
