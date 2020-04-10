@@ -12,8 +12,8 @@ def self.all
   @@all
 
 end
-def author_name#(name)
-  name = Author.new
+def author_name(name)
+  #name = Author.new
 name.author = self
   # @@all.select do |name|
   #   if name.author == self
