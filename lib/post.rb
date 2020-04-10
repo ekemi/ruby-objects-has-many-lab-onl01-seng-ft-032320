@@ -1,31 +1,22 @@
 class Post
 attr_accessor :title, :author, :name
 
-@@all= []
-def initialize(title)
-  @title=title
-  @@all << self
-  @name = name
-end
+   @@all= []
+  def initialize(title)
+     @title=title
+     @@all << self
+     @name = name
+  end
 
-def self.all
-  @@all
+  def self.all
+     @@all
+  end
+  def author_name
+     if author
+        author.name 
+     else
+        nil
+     end
 
-end
-def author_name#(name)
-  #name = Author.new
-  if author
-author.name #= self
-  # @@all.select do |name|
-else
-  nil
-end
-  #   if name.author == self
-  #     return name.author
-  #   else
-  #     nil
-  #   end
-#end
-
-end
+ end
 end
