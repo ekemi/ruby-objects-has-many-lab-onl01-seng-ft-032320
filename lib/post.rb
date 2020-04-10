@@ -12,13 +12,13 @@ def self.all
 
 end
 def author_name(name)
-
-  @@all.select do |name|
-    if name.author == self
-      return name.author
-    else
-      nil
-    end
+name.auther = self
+  # @@all.select do |name|
+  #   if name.author == self
+  #     return name.author
+  #   else
+  #     nil
+  #   end
 end
 
 end
