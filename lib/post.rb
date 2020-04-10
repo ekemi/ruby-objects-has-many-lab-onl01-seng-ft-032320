@@ -12,6 +12,7 @@ def self.all
 
 end
 def author_name#(name)
+  name = Post.new
 name.author = self
   # @@all.select do |name|
   #   if name.author == self
