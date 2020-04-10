@@ -19,6 +19,7 @@ author.name #= self
   # @@all.select do |name|
 else
   nil
+end
   #   if name.author == self
   #     return name.author
   #   else
